@@ -57,3 +57,12 @@ const propertyName = 'username'; // or 'age', 'email', etc.
 userProfile[propertyName] = 'JohnDoe';
 
 console.log(userProfile); // { username: 'JohnDoe' }
+
+// Exercise 8: Default parameters
+function describeObject(noun = 'cat', adjective = 'white') {
+    console.log(`The ${noun} is ${adjective}.`);
+  }
+  
+  describeObject(); // 'The cat is white.'
+  describeObject('dog', 'brown'); // 'The dog is brown.'
+  
