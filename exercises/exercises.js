@@ -6,3 +6,11 @@ const doubledNums = nums.map(num => num * 2);
 
 console.log(doubledNums); // [26, 174, 4, 178, 24, 8, 180, 126]
 
+// Exercise 2: Array destructuring
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+// Use destructuring to pull out the first and second values and place them into variables.
+const [firstTopping, secondTopping] = pizzaToppings;
+
+console.log(firstTopping); // 'Pineapple'
+console.log(secondTopping); // 'Olives'
