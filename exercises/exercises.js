@@ -82,3 +82,13 @@ console.log('result2:', result2); // 243
 console.log('result3:', result3); // false
 console.log('result4:', result4); // 3000 (assuming myVar is undefined)
 
+// Exercise 11: Optional chaining
+const adventurer = {
+    name: 'Alice',
+  };
+  
+  let cat = adventurer.cat?.age;
+  
+  console.log(cat); // undefined
+
+  
