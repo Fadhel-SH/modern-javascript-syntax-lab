@@ -26,4 +26,11 @@ const car = {
   
   console.log(make); // 'Audi'
   console.log(model); // 'q5'
-  
+
+  // Exercise 4: Applying the spread operator on arrays
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+// Duplicate the array using the spread operator and assign it to `controversialPizzaToppings`.
+const controversialPizzaToppings = [...pizzaToppings];
+
+console.log(controversialPizzaToppings); // ['Pineapple', 'Olives', 'Anchovies']
