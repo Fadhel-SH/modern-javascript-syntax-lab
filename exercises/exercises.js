@@ -65,4 +65,9 @@ function describeObject(noun = 'cat', adjective = 'white') {
   
   describeObject(); // 'The cat is white.'
   describeObject('dog', 'brown'); // 'The dog is brown.'
-  
+
+  // Exercise 9: Ternary operator
+let pizza = 'tasty';
+
+console.log(pizza === 'tasty' ? 'yum' : 'yuck'); // 'yum'
+
