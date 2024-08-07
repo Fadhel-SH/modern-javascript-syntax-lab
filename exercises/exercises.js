@@ -34,3 +34,16 @@ const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 const controversialPizzaToppings = [...pizzaToppings];
 
 console.log(controversialPizzaToppings); // ['Pineapple', 'Olives', 'Anchovies']
+
+// Exercise 5: Applying the spread operator on objects
+const car = {
+    make: 'Audi',
+    model: 'q5',
+  };
+  
+  // Duplicate the object and spread its values into a new variable `myCar`.
+  const myCar = { ...car, model: 'q7' };
+  
+  console.log(car);   // { make: 'Audi', model: 'q5' }
+  console.log(myCar); // { make: 'Audi', model: 'q7' }
+  
