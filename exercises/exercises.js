@@ -14,3 +14,16 @@ const [firstTopping, secondTopping] = pizzaToppings;
 
 console.log(firstTopping); // 'Pineapple'
 console.log(secondTopping); // 'Olives'
+
+// Exercise 3: Destructuring objects
+const car = {
+    make: 'Audi',
+    model: 'q5',
+  };
+  
+  // Use destructuring to create variables `make` and `model` that will hold the respective values.
+  const { make, model } = car;
+  
+  console.log(make); // 'Audi'
+  console.log(model); // 'q5'
+  
